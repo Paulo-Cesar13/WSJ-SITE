@@ -16,6 +16,7 @@ body {
 }
 
 .topo {
+    display: flex;
     background-color: cadetblue;
     width: 795px;
     margin: 5px;
@@ -24,4 +25,36 @@ body {
 .logo {
     width: 200px;
     height: 100px;
+    padding: 5px;
+}
+
+.login {
+    display: flex;
+    background-color: brown;
+    margin: auto;
+    padding: 30px;
+}
+
+.corpo {
+    background-color: rgba(205, 234, 235, 0.63);
+    display: flex;
+    width: 780px;
+    height: 620px;
+    margin: auto;
+    padding: 5px;
+}
+
+.videos {
+    background-color: chocolate;
+    width: 760px;
+    height: 610px;
+    margin: 10px;
+}
+
+.formulario {
+    background-color: rgba(138, 228, 138, 0.575);
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    padding: 10px;
 }
